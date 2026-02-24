@@ -11,6 +11,6 @@ int main() {
         num = num / 10;
 
     }
-    printf("%d\n%d", cont, soma);
+    printf("%d\n%d\n", cont, soma);
     return 0;
 }

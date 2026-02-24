@@ -8,6 +8,6 @@ int main() {
     seg = seg % 3600;
     min = seg / 60;
     seg = seg % 60;
-    printf("%02d:%02d:%02d", hor, min, seg); // FALTA O FORMATO HH:MM:SS
+    printf("%02d:%02d:%02d\n", hor, min, seg); 
     return 0;
 }
