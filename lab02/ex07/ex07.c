@@ -13,7 +13,7 @@ int main() {
                 cont++;
             }
         }
-        printf("%d", cont);
+        printf("%d\n", cont);
         return 0;
     }
 }
