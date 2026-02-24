@@ -1,6 +1,7 @@
 /* iaed26 - ist1117618 - lab02/ex01 */
 #include <stdio.h>
 
+// main
 int main() {
     int a,b,c;
     scanf("%d%d%d", &a, &b, &c);
