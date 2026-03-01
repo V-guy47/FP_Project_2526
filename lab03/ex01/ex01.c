@@ -4,9 +4,10 @@
 void quadrado(int N) {
     int i, i2, cont = 0;
     for(i = 1; i <= N; i++) {
-        for (i2 = 1 + cont; i2 <= N + cont; i2++) {
+        for (i2 = 1 + cont; i2 < N + cont; i2++) {
             printf("%d\t", i2);
         }
+        printf("%d", i2);
         printf("\n");
         cont++;
     }

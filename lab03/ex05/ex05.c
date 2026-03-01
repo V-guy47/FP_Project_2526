@@ -5,7 +5,6 @@
 int main() {
     int car;
     bool entre_aspas = false, depois_da_barra = false;
-    int cont = 0;
     while((car = getchar()) != EOF){
         if(depois_da_barra) {
             putchar(car);
