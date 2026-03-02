@@ -19,5 +19,5 @@ int main() {
         scanf("%d", &N);
     }
     quadrado(N);
-    return 0;
+    return 0; 
 }
