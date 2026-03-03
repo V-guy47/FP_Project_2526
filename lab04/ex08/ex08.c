@@ -3,7 +3,7 @@
 #include <string.h>
 
 int main() {
-    char num1[101], num2[101], c1, c2, estado = 0;
+    char num1[101], num2[101], estado = 0;
     int len;
     scanf("%100s", num1);
     scanf("%100s", num2);

@@ -10,11 +10,11 @@ int leLinha(char s[]) {
         c = getchar();
     }   
     s[i] = '\0';
-    return s[1000];
+    return s[80];
 }
 
 void maiusculas(char s[]) {
-    int c, len = strlen(s);
+    int len = strlen(s);
     for(int i = 0; i < len; i++) {
         if (s[i] >= 'a' && s[i] <= 'z') {
             s[i] += ('A' - 'a');
@@ -23,7 +23,7 @@ void maiusculas(char s[]) {
 }
 
 int main() {
-    char s[1000];
+    char s[80];
 
     leLinha(s);
     maiusculas(s);

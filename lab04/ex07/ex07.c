@@ -21,11 +21,11 @@ int leLinha(char s[]) {
         c = getchar();
     }   
     s[i] = '\0';
-    return s[1000];
+    return s[80];
 }
 
 int main() {
-    char s[1000], c;
+    char s[80], c;
     leLinha(s);
     scanf("%c", &c);
     apagaCaracter(s, c);

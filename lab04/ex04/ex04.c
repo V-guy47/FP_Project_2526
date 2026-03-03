@@ -10,6 +10,6 @@ int main () {
     for(i = 0; b && i < (int)strlen(s)/2; i++) {
         b = (s[i] == s[strlen(s) - i - 1]);
     }
-    printf("%s", b ? "yes" : "no");
+    printf("%s", b ? "yes\n" : "no\n");
     return 0;
 }

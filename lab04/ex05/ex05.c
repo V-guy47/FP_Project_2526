@@ -14,7 +14,7 @@ int leLinha(char s[]) {
 }
 
 int main() {
-    char s[1000];
+    char s[80];
 
     leLinha(s);
     printf("%s", s);
