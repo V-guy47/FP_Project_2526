@@ -20,10 +20,10 @@ int main() {
         }
     }
     if (estado) {
-        printf("%s", num2);
+        printf("%s\n", num2);
     }
     else {
-        printf("%s", num1);
+        printf("%s\n", num1);
     }
 
 }

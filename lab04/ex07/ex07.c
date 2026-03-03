@@ -29,6 +29,6 @@ int main() {
     leLinha(s);
     scanf("%c", &c);
     apagaCaracter(s, c);
-    printf("%s", s);
+    printf("%s\n", s);
     return 0;
 }

@@ -17,7 +17,7 @@ int main() {
     char s[80];
 
     leLinha(s);
-    printf("%s", s);
+    printf("%s\n", s);
     return 0;
     
 } 

@@ -27,7 +27,7 @@ int main() {
 
     leLinha(s);
     maiusculas(s);
-    printf("%s", s);
+    printf("%s\n", s);
     return 0;
     
 } 
