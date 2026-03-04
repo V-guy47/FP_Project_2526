@@ -9,6 +9,8 @@ void apagaCaracter(char s[], char c) {
             for(int j = i; j < len; j++) {
                 s[j] = s[j + 1];
             }
+            len--;
+            i--;
         }
     }
 }
