@@ -9,7 +9,7 @@ FEATURES:
 - Portuguese Alphabet Intergration (custom portuguese letters, not available in English language)
 
 GAME MECHANICS:
-- J (jogar) : use syntax "J ^line^ ^column^ ^direction^ ^word^" (eg: J 3 8 H TESTE)
+- J (jogar) : use syntax "J \<line\> \<column\> \<direction\> \<word\>" (eg: J 3 8 H TESTE)
 - T (trocar) : use "T" followed by the letters to exchange. The bag is required to have at least 7 letters remaining (eg: T A B C)
 - P (passar) : Pass your current turn
 
