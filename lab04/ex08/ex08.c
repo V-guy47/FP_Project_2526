@@ -3,10 +3,10 @@
 #include <string.h>
 
 int main() {
-    char num1[101], num2[101], estado = 0;
+    char num1[80], num2[80], estado = 0;
     int len;
-    scanf("%100s", num1);
-    scanf("%100s", num2);
+    scanf("%80s", num1);
+    scanf("%80s", num2);
     len = strlen(num1); // os dois tem o mesmo comprimento
 
     for(int i = 0; i < len; i++) {
